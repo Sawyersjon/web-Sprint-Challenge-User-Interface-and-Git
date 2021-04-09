@@ -50,7 +50,6 @@ table {
 * {
     box-sizing: border-box;
     max-width:100%;
-    border:1px gray solid
   
 }
 
@@ -69,7 +68,7 @@ header nav {
     
 header nav a:link{
        text-decoration: none;
-       padding:0 50px;
+       padding:0 38px;
        margin: 0 auto;
 }
 
@@ -246,7 +245,7 @@ p {
 }
 
 footer {
-    width: 100%;
+    width:100%;
     background: black;
 }
 
@@ -262,4 +261,28 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* About page styling  */
+
+
+.learn{
+    display:flex;
+    padding:10px 0;
+    border: 2px solid black;
+    width:20%;
+    border-radius:10px;
+    justify-content: center;
+}
+.middle-about{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.middle-about div{
+    border-bottom:1px dotted black;
+    justify-content: space-evenly;
+    padding:25px;
+}
+.about .container .skyline{
+
 }
