@@ -269,11 +269,39 @@ footer nav a {
 
 /*About Page styles*/
 
+.aboutDiv{
+    padding: 2% 5%;
+    border-bottom: 1px dashed black;
+}
+
 #panelsAbout{
     display: flex;
     flex-wrap: wrap;
 }
 
 #panelsAbout div{
-    width: 50%;
+    width: 45%;
+    margin:0 auto;
+}
+#panelsAbout div{
+    padding: 5% 0;
+    border-bottom: 1px dashed black;
+}
+#panelsAbout div a{
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 1% 5%;
+    border-radius: 10%;    
+}
+
+#panelsAbout div h2{
+    margin-top: 5%;
+}
+
+#panelsAbout div p{
+    margin-bottom: 5%;
+}
+
+#together{
+    padding: 5% 0;
 }
